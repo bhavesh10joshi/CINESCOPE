@@ -1,0 +1,709 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+.video-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1; /* behind everything */
+}
+
+#heading {
+  font-family: 'Share Tech', sans-serif;
+}
+#mainheader {
+  display: flex;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: black; /* optional: make header stand out */
+  z-index: 1000; /* always above everything */
+  padding: 1rem;
+}
+#username
+{
+  display: flex;
+}
+#mainheadingparent
+{
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal; 
+  font-size: 6.5rem; 
+  color: white;
+  margin-left: 2rem;
+  margin-top: 1rem;
+  display: flex;
+}
+#cineheading
+{
+  color:#ff3131;
+}
+#scopeheading
+{
+  color : #38b6ff;
+}
+#subheadingparent
+{
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 2rem; 
+  color: white;
+  margin-left: 19rem;
+  margin-top: 1rem;
+  color : #38b6ff;
+}
+#btnparent
+{
+  display: flex;
+}
+#Welcome
+{
+  display: flex;
+}
+#welcomeheading
+{
+  color:#ff3131;
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.5rem;
+  margin-top: -0.5rem;
+  margin-left: 21rem;
+}
+#nameofuser
+{
+  margin-left: 0.5rem;
+  color:#ff3131;
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.5rem;
+  margin-top: -0.5rem;
+}
+#LogOut:hover
+{
+  background-color: cyan;
+  color: black;
+  cursor: pointer;
+}
+#LogOutparent
+{
+  margin-top: 0.7rem;
+  margin-left: 2rem;
+}
+#footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-family: "League Spartan", sans-serif;
+  margin-top: 4rem;
+}
+#Followus
+{
+    margin-top: -3rem;
+  height: 10rem;
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.4rem;
+  color: #ff3131;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+}
+#iconsparent
+{
+  margin-top: 2rem;
+  display: flex;
+  justify-content:center;
+  align-items:center ;
+  margin-bottom: 2rem;
+}
+#hr2
+{
+  margin-top: 3rem;
+}
+#hr1
+{
+  margin-top: -3rem;
+}
+#facebookparent
+{
+  margin-right: 3rem;
+}
+#instaparent
+{
+  margin-right: 3rem;
+}
+#youtubeparent
+{
+  margin-right: 3rem;
+}
+#copyright
+{
+  color: #38b6ff;
+}
+#middlepartparent
+{
+  position: relative;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 70rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.transparent-black {
+  background-color: rgba(0, 0, 0, 0.6); /* 60% opaque black */
+}
+#imageandinfoparent
+{
+    height: 70rem;
+    width: 100%;
+    display: flex;
+    margin-top: 3rem;
+}
+#imageparent
+{
+    margin-top: 12rem;
+    margin-left: 3rem;   
+}
+#moviename
+{
+  color: white;
+  margin-top: 2rem;
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2.3rem;
+  margin-left: 2rem;
+  display: flex;
+}
+#movieh
+{
+  margin-right : 1.5rem ;
+}
+#movieslogan
+{
+  color: white;
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.3rem;
+  margin-left: 2rem;
+}
+#moviedate
+{
+  display: flex;
+  color: white;
+  margin-top: 1rem;
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2.3rem;
+  margin-left: 2rem;
+}
+#month
+{
+  color: white;
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2.3rem;
+  margin-left: 1.5rem;
+}
+#Day
+{
+    color: white;
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2.3rem;
+  margin-left: 1rem;
+}
+#year
+{
+    color: white;
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2.3rem;
+  margin-left: 1rem;
+}
+#moviedirector
+{
+  color: white;
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2.3rem;
+  margin-left: 2rem;
+  margin-top: 0.2rem;
+  display: flex;
+}
+#movied
+{
+  margin-right : 1.5rem ; 
+}
+#moviesynopsis
+{
+  color: white;
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.5rem;
+  margin-left: 2rem;
+  margin-top: 1rem;
+  padding-right: 2rem;
+}
+#moviegenre
+{
+  color: white;
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2.3rem;
+  margin-left: 2rem;
+  margin-top: 1rem;
+  padding-right: 2rem;
+  display: flex;
+}
+#boxofficeparent
+{
+  color: white;
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2.3rem;
+  margin-left: 2rem;
+  margin-top: 1rem;
+  padding-right: 2rem;
+  display: flex;
+}
+#awardsparent
+{
+  color: white;
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2.3rem;
+  margin-left: 2rem;
+  margin-top: 1rem;
+  padding-right: 2rem;
+  display: flex;
+}
+#castparent
+{
+  color: white;
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2.3rem;
+  margin-left: 2rem;
+  margin-top: 1rem;
+  padding-right: 2rem;
+  display: flex;
+  margin-bottom: 2rem;
+}
+#casts
+{
+  margin-left: 1rem;
+}
+#dollars
+{
+  margin-left: 1rem;
+}
+#awards
+{
+  margin-left: 1rem;
+}
+#movieg
+{
+  margin-right : 1.5rem ; 
+}
+hr{
+  margin-left: 2rem;
+  margin-right: 3rem;
+}
+#blackbox
+{
+  display: flex;
+  background-color: black;
+  height: 20rem;
+  margin-left: 3rem;
+  margin-right: 4rem;
+  width: 89rem;
+  margin-top: -31rem;
+  margin-bottom: 5rem;
+}
+.imageparent
+{
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+.actorname
+{
+  color: white;
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.5rem;
+  justify-content: center;
+  display:flex ;
+  align-items: center;
+}
+
+/* From Uiverse.io by alexruix */ 
+.group {
+  margin-top: 0.5rem;
+ display: flex;
+ line-height: 28px;
+ align-items: center;
+ position: relative;
+ max-width: 190px;
+ margin-left: 5rem;
+}
+
+.input {
+ width: 20rem;
+ height: 40px;
+ line-height: 28px;
+ padding: 0 1rem;
+ padding-left: 2.5rem;
+ border: 2px solid transparent;
+ border-radius: 8px;
+ outline: none;
+ background-color: #f3f3f4;
+ color: #0d0c22;
+ transition: .3s ease;
+}
+
+.input::placeholder {
+ color: #9e9ea7;
+}
+
+.input:focus, input:hover {
+ outline: none;
+ border-color: rgba(234,76,137,0.4);
+ background-color: #fff;
+ box-shadow: 0 0 0 4px rgb(234 76 137 / 10%);
+}
+
+.icon {
+ position: absolute;
+ left: 1rem;
+ fill: #9e9ea7;
+ width: 1rem;
+ height: 1rem;
+}
+#LogOut
+{
+  border-radius: 2rem;
+  background-color: white;
+  color: black;
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  width: 9rem;
+  height: 2.5rem;
+  font-size: 1.5rem;
+  margin-left: 2rem;
+}
+#searchit
+{
+  background-color: #f3f3f4;
+  border-color: #ff3131;
+  border-radius: 1rem;
+  height: 2.5rem;
+  width: 4rem;
+  margin-left: 3rem;
+  margin-top: 0.5rem;
+  margin-right: -2rem;
+}
+#searchit:hover{
+  cursor: pointer;
+ 
+}
+#imdbheading
+{
+  margin-top: -1.9rem;
+  margin-left: 25rem;
+}
+#imdbimg
+{
+  width: 5rem;
+  height: 5rem;
+}
+#imdbscore
+{
+  margin-left: 0.5rem;
+  font-size: 2.5rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-top: -0.8rem;
+}
+#infoparent
+{
+  background-color: black;
+  margin-top: 10rem;
+  margin-bottom: 2rem;
+}
+/* From Uiverse.io by anand_4957 */ 
+.loader {
+  display:none;
+  margin-top: -12rem;
+  position: absolute;
+  top: 50%;
+  margin-left: -50px;
+  left: 50%;
+  animation: speeder 0.4s linear infinite;
+}
+.loader > span {
+  height: 5rem;
+  width: 35px;
+  background: #000;
+  position: absolute;
+  top: -19px;
+  left: 60px;
+  border-radius: 2px 10px 1px 0;
+}
+.base span {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 6px solid transparent;
+  border-right: 100px solid #000;
+  border-bottom: 6px solid transparent;
+}
+.base span:before {
+  content: "";
+  height: 22px;
+  width: 22px;
+  border-radius: 50%;
+  background: #000;
+  position: absolute;
+  right: -110px;
+  top: -16px;
+}
+.base span:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 0 solid transparent;
+  border-right: 55px solid #000;
+  border-bottom: 16px solid transparent;
+  top: -16px;
+  right: -98px;
+}
+.face {
+  position: absolute;
+  height: 12px;
+  width: 20px;
+  background: #000;
+  border-radius: 20px 20px 0 0;
+  transform: rotate(-40deg);
+  right: -125px;
+  top: -15px;
+}
+.face:after {
+  content: "";
+  height: 12px;
+  width: 12px;
+  background: #000;
+  right: 4px;
+  top: 7px;
+  position: absolute;
+  transform: rotate(40deg);
+  transform-origin: 50% 50%;
+  border-radius: 0 0 0 2px;
+}
+.loader > span > span:nth-child(1),
+.loader > span > span:nth-child(2),
+.loader > span > span:nth-child(3),
+.loader > span > span:nth-child(4) {
+  width: 30px;
+  height: 1px;
+  background: #000;
+  position: absolute;
+  animation: fazer1 0.2s linear infinite;
+}
+.loader > span > span:nth-child(2) {
+  top: 3px;
+  animation: fazer2 0.4s linear infinite;
+}
+.loader > span > span:nth-child(3) {
+  top: 1px;
+  animation: fazer3 0.4s linear infinite;
+  animation-delay: -1s;
+}
+.loader > span > span:nth-child(4) {
+  top: 4px;
+  animation: fazer4 1s linear infinite;
+  animation-delay: -1s;
+}
+@keyframes fazer1 {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: -80px;
+    opacity: 0;
+  }
+}
+@keyframes fazer2 {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: -100px;
+    opacity: 0;
+  }
+}
+@keyframes fazer3 {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: -50px;
+    opacity: 0;
+  }
+}
+@keyframes fazer4 {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: -150px;
+    opacity: 0;
+  }
+}
+@keyframes speeder {
+  0% {
+    transform: translate(2px, 1px) rotate(0deg);
+  }
+  10% {
+    transform: translate(-1px, -3px) rotate(-1deg);
+  }
+  20% {
+    transform: translate(-2px, 0px) rotate(1deg);
+  }
+  30% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+    transform: translate(-1px, 3px) rotate(-1deg);
+  }
+  60% {
+    transform: translate(-1px, 1px) rotate(0deg);
+  }
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+  80% {
+    transform: translate(-2px, -1px) rotate(1deg);
+  }
+  90% {
+    transform: translate(2px, 1px) rotate(0deg);
+  }
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
+}
+.longfazers {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.longfazers span {
+  position: absolute;
+  height: 2px;
+  width: 20%;
+  background: #000;
+}
+.longfazers span:nth-child(1) {
+  top: 20%;
+  animation: lf 0.6s linear infinite;
+  animation-delay: -5s;
+}
+.longfazers span:nth-child(2) {
+  top: 40%;
+  animation: lf2 0.8s linear infinite;
+  animation-delay: -1s;
+}
+.longfazers span:nth-child(3) {
+  top: 60%;
+  animation: lf3 0.6s linear infinite;
+}
+.longfazers span:nth-child(4) {
+  top: 80%;
+  animation: lf4 0.5s linear infinite;
+  animation-delay: -3s;
+}
+@keyframes lf {
+  0% {
+    left: 200%;
+  }
+  100% {
+    left: -200%;
+    opacity: 0;
+  }
+}
+@keyframes lf2 {
+  0% {
+    left: 200%;
+  }
+  100% {
+    left: -200%;
+    opacity: 0;
+  }
+}
+@keyframes lf3 {
+  0% {
+    left: 200%;
+  }
+  100% {
+    left: -100%;
+    opacity: 0;
+  }
+}
+@keyframes lf4 {
+  0% {
+    left: 200%;
+  }
+  100% {
+    left: -100%;
+    opacity: 0;
+  }
+}

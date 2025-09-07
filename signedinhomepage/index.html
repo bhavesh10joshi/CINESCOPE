@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CINESCOPE</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=League+Spartan:wght@100..900&family=Oswald:wght@200..700&family=Share+Tech&display=swap" rel="stylesheet">
+<link rel="icon" type="image/png" href="../CINE.png">
+</head>
+<body>
+        <div id="mainheader">
+            <div id="userandname">
+                <div id="mainheadingparent">
+                <div id="cineheading">
+                    CINE
+                </div>
+                <div id="scopeheading">
+                    SCOPE
+                </div>
+                </div>
+                <div id="username">
+                    <div id="welcomeheading">
+                    </div>
+                    <div id="nameofuser">
+                    </div>
+                </div>
+            </div>
+            <div id="subheadingparent">
+                <div id="subheading">
+                    Discover. Explore. Experience Cinema.
+                </div>
+                <div id="btnparent">
+                    <div id="searchoption">
+                        <!-- From Uiverse.io by alexruix --> 
+<div class="group">
+  <svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><g><path d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z"></path></g></svg>
+  <input placeholder="Search Movie" type="search" class="input" id="searchbox">
+</div>
+                    </div>
+                    <div id="finditbtnparent">
+                        <button id="searchit" onclick="searchit()"><img src="../s.png" alt=""></button>
+                    </div>
+                    <div id="LogOutparent">
+                        <button id="LogOut" onclick="logout()">Log Out</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <video autoplay muted loop class="video-bg">
+        <source src="../Disney - 100 Years of Wonder Intro (1080p HD).mp4.mp4" type="video/mp4">
+        </video>
+        <div id="videomainparent">
+            <div id="moviesrow1parent">
+                <div id="avenparent">
+                    <a href="https://www.hotstar.com/in/studios/marvel/1260021091"><img src="../avengers.jpg" alt="" id="avengers"></a>
+                </div>
+                <div id="johnparent"><a href="https://www.primevideo.com/detail/John-Wick/0LTVC3IVCLW19Y51M3N6J31UX5"><img src="../jw.jpg" alt="" id="johnwick"></a></div>
+                <div id="harryparent"><a href="https://www.primevideo.com/detail/Harry-Potter-8-Film-Collection/0PZ2C3NBUS2NWKWZUQNFLCP9FT"><img src="../hp.jpg" alt="" id="harrypotter"></a></div>
+                <div id="fafparent"><a href="https://www.primevideo.com/detail/The-Fast-And-The-Furious/0I5L75QTXAHHOZQZV0Y7485E4Z"><img src="../faf.jpg" alt="" id="fastandfurious"></a></div>
+                <div id="miparent"><a href="https://www.primevideo.com/detail/Mission-Impossible---The-Final-Reckoning/0KT5HNE3OBR4TOFORPUHDR4G9U"><img src="../mi.jpg" alt="" id="mission"></a></div>
+                <div id="bondparent"><a href="https://www.primevideo.com/collection/JamesBond"><img src="../skyfall.jpg" alt="" id="bond"></a></div>
+            </div>
+            <div id="moviesrow2parent">
+                <div>
+                    <a href="https://tv.apple.com/"><img src="../apple.png" alt="" id="apple"></a>
+                </div>
+                <div ><a href="https://www.netflix.com/in/"><img src="../netflix.png" alt="" id="netflix"></a></div>
+                <div ><a href="https://www.hbomax.com/geo-availability"><img src="../hbo.jpg" alt="" id="hbo"></a></div>
+                <div ><a href="https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root"><img src="../prime.png" alt="" id="prime"></a></div>
+                <div ><a href="https://www.hotstar.com/in/home"><img src="../jio.png" alt="" id="jio"></a></div>
+                <div ><a href="https://www.youtube.com/"><img src="../you.jpg" alt="" id="you"></a></div>
+            </div>
+            <div id="biglinestart">
+                <hr>
+            </div>
+            <div id="aboutparent">
+                <div id="line1" class="line">Welcome to Movie Info — the hangout spot for every movie lover! 🍿✨</div>
+               <div id="line2" class="line"> We’re here to make your movie nights (and binge weekends) way easier. From blockbusters everyone’s talking about to those hidden gems you </div>
+                <div id="line3" class="line">accidentally stumble upon, we’ve got the lowdown on it all.🎬</div>
+                <div id="line4" class="line">Want to know who’s in the cast? Got you. Curious about the storyline before hitting play? Done. Just here to watch trailers and geek out over your</div>
+                <div id="line5" class="line">favorite films? Same here! 🎬</div>
+                <div id="line6" class="line">Think of us as your movie buddy — always ready with recommendations, trivia, and all the info you need to keep the reel rolling.</div>
+            </div>
+            <div id="endlinestart">
+                <hr>
+            </div>
+        </div>
+        <div id="footer">
+            <div>
+                <hr id="hr2">
+            </div>
+            <div id="Followus">
+                FOLLOW US ON
+            </div>
+            <div>
+                <hr id="hr1">
+            </div>
+            <div id="iconsparent">
+                <div id="facebookparent"><a href=""><img src="https://img.icons8.com/?size=100&id=8818&format=png&color=FFFFFF" alt=""></a></div>
+                <div id="instaparent"><a href=""><img src="https://img.icons8.com/?size=100&id=32292&format=png&color=FFFFFF" alt=""></a></a></div>
+                <div id="youtubeparent"><a href=""><img src="https://img.icons8.com/?size=100&id=100956&format=png&color=FFFFFF" alt=""></a></a></div>
+                <div id="xparent"><a href=""><img src="https://img.icons8.com/?size=100&id=6Fsj3rv2DCmG&format=png&color=FFFFFF" alt=""></a></a></div>
+            </div>  
+            <div id="copyright">
+                 <p>© 2025 Cinescope | All Rights Reserved</p>
+            </div>
+        </div>
+        <script src="./index.js"></script>
+</body>
+</html>

@@ -1,0 +1,411 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+.video-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1; /* behind everything */
+}
+
+#heading {
+  font-family: 'Share Tech', sans-serif;
+}
+#mainheader {
+  display: flex;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: black; /* optional: make header stand out */
+  z-index: 1000; /* always above everything */
+  padding: 1rem;
+}
+#mainheadingparent
+{
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal; 
+  font-size: 6.5rem; 
+  color: white;
+  margin-left: 2rem;
+  margin-top: 1rem;
+  display: flex;
+}
+#cineheading
+{
+  color:#ff3131;
+}
+#scopeheading
+{
+  color : #38b6ff;
+}
+#subheadingparent
+{
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 2rem; 
+  color: white;
+  margin-left: 19rem;
+  margin-top: 1rem;
+  color : #38b6ff;
+}
+#btnparent
+{
+  display: flex;
+}
+#signup
+{
+  border-radius: 2rem;
+  background-color: white;
+  color: black;
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  width: 9rem;
+  height: 2.5rem;
+  font-size: 1.5rem;
+}
+#signup:hover
+{
+  background-color: cyan;
+  color: black;
+  cursor: pointer;
+}
+#signin
+{
+  border-radius: 2rem;
+  background-color: white;
+  color: black;
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  width: 9rem;
+  height: 2.5rem;
+  font-size: 1.5rem;
+}
+#signin:hover
+{
+  background-color: cyan;
+  color: black;
+  cursor: pointer;
+}
+#signupparent
+{
+  margin-top: 0.7rem;
+  margin-left: 15rem;
+}
+#signinparent
+{
+  margin-top: 0.7rem;
+  margin-left: 2rem;
+}
+#moviesrow1parent
+{
+display: flex;  
+margin-top: 5rem;
+margin-left: 3rem;
+ position: relative;
+  z-index: 2;    
+}
+#moviesrow2parent
+{
+display: flex;  
+margin-top: 4rem;
+margin-left: 3rem;
+ position: relative;
+ margin-bottom: 4rem;
+  z-index: 2;    
+}
+#avengers
+{
+  width: 13rem;
+  height: 17rem;
+}
+#apple
+{
+  width: 13rem;
+  height: 17rem;
+}
+#johnwick
+{
+width: 13rem;
+  height: 17rem;
+   margin-left:  2rem;
+}
+#netflix
+{
+  width: 13rem;
+  height: 17rem;
+   margin-left:  2rem;
+}
+#harrypotter
+{
+width: 13rem;
+  height: 17rem;
+   margin-left:  2rem;
+}
+#hbo
+{
+width: 13rem;
+  height: 17rem;
+   margin-left:  2rem;
+}
+#fastandfurious
+{
+width: 13rem;
+  height: 17rem;
+    margin-left:  2rem;
+}
+#prime
+{
+width: 13rem;
+  height: 17rem;
+    margin-left:  2rem;
+}
+#mission
+{
+width: 13rem;
+  height: 17rem;
+    margin-left:  2rem;
+}
+#jio
+{
+width: 13rem;
+  height: 17rem;
+    margin-left:  2rem;
+}
+#bond
+{
+width: 13rem;
+  height: 17rem;
+    margin-left:  2rem;
+}
+#you
+{
+width: 13rem;
+  height: 17rem;
+    margin-left:  2rem;
+}
+#biglinestart
+{
+  margin-top: 3rem;
+}
+#videomainparent {
+  margin-top: 8.5rem; /* push content down so it doesn't overlap header */
+}
+.transparent-black {
+  background-color: rgba(0, 0, 0, 0.6); /* 60% opaque black */
+}
+#aboutparent
+{ /* push content down so it doesn't overlap header */
+  position: relative;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 1rem;
+  border-radius: 10px;
+  color: white;
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.4rem;
+}
+.line{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#line1{
+  margin-bottom: 1rem;
+}
+#line3
+{
+margin-top: -0.5rem;
+margin-bottom: 1rem;
+}
+#line5
+{
+margin-top: -0.5rem;
+margin-bottom: 1rem;
+}
+hr {
+  border: none;
+  height: 3px;              /* thickness */
+  background-color: white;  /* color */
+  width: 100%;               /* length */
+}
+#signupheading
+{
+  color: #38b6ff;
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  margin-top: 3rem;
+  margin-left: 5rem;
+  font-size: 4rem;
+}
+#footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-family: "League Spartan", sans-serif;
+  margin-top: 4rem;
+}
+#Followus
+{
+    margin-top: -3rem;
+  height: 10rem;
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.4rem;
+  color: #ff3131;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+}
+#iconsparent
+{
+  margin-top: 2rem;
+  display: flex;
+  justify-content:center;
+  align-items:center ;
+  margin-bottom: 2rem;
+}
+#hr2
+{
+  margin-top: 3rem;
+}
+#hr1
+{
+  margin-top: -3rem;
+}
+#facebookparent
+{
+  margin-right: 3rem;
+}
+#instaparent
+{
+  margin-right: 3rem;
+}
+#youtubeparent
+{
+  margin-right: 3rem;
+}
+#copyright
+{
+  color: #38b6ff;
+}
+
+.group {
+  margin-top: 0.5rem;
+ display: flex;
+ line-height: 28px;
+ align-items: center;
+ position: relative;
+ max-width: 190px;
+ margin-left: 10rem;
+}
+
+.input {
+ width: 20rem;
+ height: 40px;
+ line-height: 28px;
+ padding: 0 1rem;
+ padding-left: 2.5rem;
+ border: 2px solid transparent;
+ border-radius: 8px;
+ outline: none;
+ background-color: #f3f3f4;
+ color: #0d0c22;
+ transition: .3s ease;
+}
+
+.input::placeholder {
+ color: #9e9ea7;
+}
+
+.input:focus, input:hover {
+ outline: none;
+ border-color: rgba(234,76,137,0.4);
+ background-color: #fff;
+ box-shadow: 0 0 0 4px rgb(234 76 137 / 10%);
+}
+
+.icon {
+ position: absolute;
+ left: 1rem;
+ fill: #9e9ea7;
+ width: 1rem;
+ height: 1rem;
+}
+#LogOut
+{
+  border-radius: 2rem;
+  background-color: white;
+  color: black;
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  width: 9rem;
+  height: 2.5rem;
+  font-size: 1.5rem;
+  margin-left: 2rem;
+}
+#username
+{
+  display: flex;
+}
+#Welcome
+{
+  display: flex;
+}
+#welcomeheading
+{
+  color:#ff3131;
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.5rem;
+  margin-top: -0.5rem;
+  margin-left: 21rem;
+}
+#nameofuser
+{
+  margin-left: 0.5rem;
+  color:#ff3131;
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.5rem;
+  margin-top: -0.5rem;
+}
+#LogOut:hover
+{
+  background-color: cyan;
+  color: black;
+  cursor: pointer;
+}
+#LogOutparent
+{
+  margin-top: 0.7rem;
+  margin-left: 2rem;
+}
